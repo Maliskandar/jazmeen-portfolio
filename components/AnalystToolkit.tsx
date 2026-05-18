@@ -3,7 +3,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiTarget, FiActivity, FiRefreshCw, FiMessageSquare, FiUsers } from 'react-icons/fi';
+import { FiTarget, FiActivity, FiRefreshCw, FiMessageSquare, FiUsers, FiClock } from 'react-icons/fi';
 
 // 1. Hapus SiPowerbi dari sini
 import {
@@ -82,7 +82,8 @@ const AnalystToolkit = () => {
                             { name: "Analytical Thinking", icon: <FiActivity />, desc: "Connecting the dots to uncover underlying patterns." },
                             { name: "Adaptability", icon: <FiRefreshCw />, desc: "Quickly learning and adjusting to new tools and environments." },
                             { name: "Data Communication", icon: <FiMessageSquare />, desc: "Translating technical findings into business language." },
-                            { name: "Teamwork", icon: <FiUsers />, desc: "Collaborating effectively across different departments." }
+                            { name: "Teamwork", icon: <FiUsers />, desc: "Collaborating effectively across different departments." },
+                            { name: "Time Management", icon: <FiClock />, desc: "Efficiently prioritizing tasks to meet project deadlines." }
                         ].map((skill, index) => (
                             <motion.div
                                 key={`soft-${index}`}

@@ -25,8 +25,12 @@ SKILLS: Python (Pandas, NumPy), SQL, BigQuery, Tableau, Power BI, Excel, Statist
 
 PROJECTS:
 1. Balaji Fast Food Sales Analysis — F&B, identified 15% revenue growth opportunity
-2. RevoFin Loan Portfolio Analysis — Financial, risk mitigation using BigQuery
-3. App Funnel E-CommerceU — improved conversion rates by analyzing funnel drop-offs
+2. RevoGrocers Sales Performance Analysis — Retail, discovered top 34% revenue drivers
+3. TokoBli A/B Testing — E-commerce, proved 59x Promo ROI
+4. RevoFin Loan Portfolio Analysis — Financial, risk mitigation using BigQuery
+5. App Funnel E-CommerceU — improved conversion rates by analyzing funnel drop-offs
+6. RevoBank Customer Segmentation — analyzed user datasets to define actionable customer segments
+7. RevoFinance Expense and Budget — Interactive Tableau dashboard to streamline financial tracking
 
 PERSONALITY: Honest, disciplined, analytical, driven by data and logic. Calm but highly engaged in intellectual discussions.
 
