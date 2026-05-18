@@ -153,5 +153,63 @@ export const projectsData = [
         sheet2: "#"
       }
     }
+  },
+  {
+    id: 6,
+    title: "RevoBank (Customer Segmentation)",
+    category: "Customer Segmentation",
+    tools: [<SiPython key="py" />, <RiFileExcel2Fill key="xl" />],
+    coverIcon: <FiPieChart />,
+    desc: "Customer segmentation analysis using Python to group customers based on their behavior and card usage.",
+    insight: "Targeted Segmentation",
+    insightDesc: "Analyzed user and card datasets to define actionable customer segments.",
+    fullDetail: {
+      duration: "Oct 2025",
+      background: "RevoBank required a deeper understanding of its customer base to better target marketing campaigns and improve customer experience. This project uses user and card transaction datasets to segment customers based on their behavior.",
+      objective: [
+        "Segment customers based on behavior and card usage patterns.",
+        "Identify actionable insights and tailor marketing strategies for each segment."
+      ],
+      methods: "Data processing, exploratory data analysis, and clustering algorithms implemented using Python in Google Colab.",
+      results: "Successfully grouped customers into distinct segments, providing a foundation for personalized marketing strategies and improved customer retention.",
+      links: {
+        deck: "/[PYTHON OCT25] FSDA JAZMEEN ADILLA.pdf",
+        query: "#",
+        colab: "https://colab.research.google.com/drive/1AFx6RywNHO0LnHgmDJ7mpUNhUo6P5LPH?usp=sharing",
+        tableau: "#",
+        kaggle: "#",
+        sheet1: "https://docs.google.com/spreadsheets/d/10tgTb3Rq0J_u4DH0pUI5pcEehfaw4VUg9GLCYnFQDJM/edit?usp=sharing",
+        sheet2: "https://docs.google.com/spreadsheets/d/10xFoMBpaT95oQPFXrHJBYFJNLnEhnL6bKwfKx2R_qoU/edit?usp=sharing"
+      }
+    }
+  },
+  {
+    id: 7,
+    title: "RevoFinance (Expense and Budget)",
+    category: "Financial Analytics",
+    tools: [<IoLogoTableau key="tab" />, <RiFileExcel2Fill key="xl" />],
+    coverIcon: <FiDollarSign />,
+    desc: "Interactive dashboard for tracking expenses and budget utilization to optimize financial health.",
+    insight: "Expense Optimization",
+    insightDesc: "Visualized expense and budget data to streamline financial tracking.",
+    fullDetail: {
+      duration: "Oct 2025",
+      background: "RevoFinance needed a comprehensive, easy-to-understand view of their expenses versus budgets to maintain financial health and prevent overspending. This project involves creating a dynamic dashboard to track these critical metrics.",
+      objective: [
+        "Create an interactive dashboard for expense and budget tracking.",
+        "Provide clear visualizations to monitor financial health and identify areas for cost-saving."
+      ],
+      methods: "Data transformation and visualization using Tableau to create an interactive and automated reporting dashboard.",
+      results: "Developed a Tableau dashboard that clearly highlights expense trends and budget variances, aiding management in making better financial decisions.",
+      links: {
+        deck: "#",
+        query: "#",
+        colab: "#",
+        tableau: "https://public.tableau.com/app/profile/jazmeen.adilla/viz/DATAVIZ_OCT25JazmeenAdillaIntermedieteAssignmentM1M21/Dashboard1#1",
+        kaggle: "#",
+        sheet1: "https://docs.google.com/spreadsheets/d/1JhhUwaZKm2n_ThOHzs68Hzapss3BtYpR/edit?usp=sharing&ouid=107400974752652697021&rtpof=true&sd=true",
+        sheet2: "#"
+      }
+    }
   }
 ];
