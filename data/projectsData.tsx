@@ -251,26 +251,27 @@ export const projectsData = [
   },
   {
     id: 9,
-    title: "Active User Behavior Analysis & Segmentation",
+    title: "OCA Blast: Active Client Usage Behavior Analysis & B2B Segmentation - RevoU x Telkom Indonesia",
     category: "User Behavior Analytics",
     tools: [<SiPython key="py" />],
     coverIcon: <FiActivity />,
     isSpecial: true,
     partnership: "RevoU x Telkom Indonesia",
-    desc: "Continuation of the OCA Blast project. A deep-dive behavioral analysis and segmentation of active users to sharpen targeting strategies and personalize campaign delivery.",
-    insight: "Behavior-Driven Segments",
-    insightDesc: "Identified distinct active user segments to enable precision targeting and higher campaign ROI.",
+    desc: "B2B client segmentation and churn analysis for OCA Blast to resolve the \"Uniform Treatment Trap,\" shifting from uniform account management to a personalized, data-driven approach.",
+    insight: "Avg Silhouette 0.983",
+    insightDesc: "Segmented 20 corporate clients into Enterprise, Growth, and Standard, and identified 5 clients at medium churn risk.",
     fullDetail: {
       duration: "June 2026",
-      background: "As the second phase of the OCA Blast analytics initiative under the RevoU x Telkom Indonesia Virtual Internship, this project goes deeper into active user behavior. Building on the unified omnichannel dataset established in Project 1, the focus shifts to understanding how active users interact across SMS, WhatsApp, and Email identifying behavioral clusters and engagement patterns that can drive personalized, high-impact campaign strategies.",
+      background: "Conducted a B2B client segmentation and churn analysis project for OCA Blast, Telkom Indonesia's mass messaging Communication Platform-as-a-Service (CPaaS), as part of the RevoU x Telkom Indonesia Virtual Internship Program. The project aimed to address the \"Uniform Treatment Trap,\" where all clients were previously treated equally regardless of their business scale, shifting the Account Management strategy from a uniform approach to a personalized, data-driven model.\n\nAnalyzed behavioral patterns covering 122,749 transactions from 20 active corporate clients across 4 channels (WhatsApp, SMS, Email, Voice Call) in Q1 2025 with Rp25.95M total revenue to optimize client portfolio treatment.",
       objective: [
-        "Analyze active user interaction patterns across SMS, Email, and WhatsApp channels.",
-        "Perform user segmentation based on behavioral metrics (frequency, recency, channel preference, and engagement level).",
-        "Translate behavioral segments into actionable targeting recommendations for campaign managers.",
-        "Provide a pitch deck summarizing findings and strategic recommendations for OCA Blast stakeholders."
+        "Enable personalized client treatment, proactive churn prevention, and revenue portfolio optimization for Q2 2025.",
+        "Prove the inefficiency of the standard RFM framework on the dataset due to highly uniform daily client activities (zero-variance recency), shifting the parameters to usage volume and revenue contribution.",
+        "Group 20 active corporate clients into 3 functional tiers (Enterprise, Growth, and Standard) using the K-Means Clustering algorithm with Python.",
+        "Detect early churn threats using the Monthly Volume Decline comparison method (January-March).",
+        "Formulate strategic priorities and recommendations using the OBIPR Framework to determine actions for Retention (Enterprise), Upsell (Growth), and Churn Prevention (Standard)."
       ],
-      methods: "Leveraged Python (Google Colab) for data wrangling, feature engineering, and clustering analysis on the harmonized omnichannel dataset. Applied segmentation techniques to group active users by behavioral attributes. Findings were synthesized into a structured pitch deck for business stakeholders.",
-      results: "Identified distinct user behavioral segments with differing channel affinities and engagement frequencies. Recommendations included personalized messaging schedules, channel-specific content strategies, and re-engagement triggers for at-risk active users all aimed at maximizing campaign efficiency and user lifetime value.",
+      methods: "Methodology:\n• Multi-channel EDA (message volume, revenue, peak hour, channel mix)\n• K-Means Clustering (K=3, Silhouette Score: 0.983) = Enterprise, Growth, and Standard\n• Rule-Based Churn Detection via Monthly Volume Decline Analysis\n\nTools & Skills:\nPython, pandas, scikit-learn, matplotlib, Google Colab, Customer Segmentation, Data Analytics, Churn Prediction Analysis, Business Strategy",
+      results: "Key Findings & Strategic Recommendations:\n• 3 Enterprise clients (15%) drive 59.9% of total revenue → critical concentration risk (losing just 1 client loses ~Rp5.2M).\n• 5 Standard clients at Medium Churn Risk (volume decline: 20.6%–29.3% in March, failing to recover after February seasonal dip).\n• SMS usage correlates strongly (r = 0.729) with revenue per transaction.\n• Segment-specific peak blast windows for scheduling optimization: Enterprise active 16–18 WIB, Growth 21.00–00.00 WIB, Standard 19–23 WIB.\n• OBIPR Framework: Priority retention for Enterprise (extreme retention & VIP support), Upsell for Growth (upsell volume), and Churn Prevention for Standard (proactive win-back interventions & support automation).",
       links: {
         deck: "https://docs.google.com/presentation/d/1Xjtac05GgQokuldWUKg092-_zgYu8Fm6aBRK7q5VuHA/edit?usp=sharing",
         query: "#",

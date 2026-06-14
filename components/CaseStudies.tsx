@@ -207,7 +207,7 @@ const CaseStudies = () => {
                     <h4 className="text-black dark:text-teal-400 font-bold mb-3 flex items-center gap-2 text-lg">
                       <FiTarget /> Project Background
                     </h4>
-                    <p className="text-neutral-700 dark:text-slate-300 text-sm md:text-base leading-relaxed text-justify">
+                    <p className="text-neutral-700 dark:text-slate-300 text-sm md:text-base leading-relaxed text-justify whitespace-pre-line">
                       {selectedProject.fullDetail?.background}
                     </p>
                   </div>
@@ -234,7 +234,7 @@ const CaseStudies = () => {
                       <span className="flex items-center gap-2"><FiCode /> Tools and Methods</span>
                       <span className="flex items-center gap-2 text-black dark:text-slate-300 text-base">{selectedProject.tools}</span>
                     </h4>
-                    <p className="text-neutral-700 dark:text-slate-300 text-sm md:text-base leading-relaxed text-justify">
+                    <p className="text-neutral-700 dark:text-slate-300 text-sm md:text-base leading-relaxed text-justify whitespace-pre-line">
                       {selectedProject.fullDetail?.methods}
                     </p>
                   </div>
@@ -243,7 +243,7 @@ const CaseStudies = () => {
                     <h4 className="text-black dark:text-purple-400 font-bold mb-3 flex items-center gap-2 text-lg">
                       <FiBarChart2 /> Results and Visuals
                     </h4>
-                    <p className="text-neutral-700 dark:text-slate-300 text-sm md:text-base leading-relaxed text-justify">
+                    <p className="text-neutral-700 dark:text-slate-300 text-sm md:text-base leading-relaxed text-justify whitespace-pre-line">
                       {selectedProject.fullDetail?.results}
                     </p>
                   </div>
